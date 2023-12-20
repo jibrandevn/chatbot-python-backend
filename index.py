@@ -40,5 +40,4 @@ def ask_question():
     answer = answer_question(question)
     return jsonify({'answer': answer})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+ 
